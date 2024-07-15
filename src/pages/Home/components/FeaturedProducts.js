@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
+import { toast } from "react-toastify";
 import { ProductCard } from "../../../components"
 import { getFeaturedList } from "../../../services";
-import { toast } from "react-toastify";
 
 export const FeaturedProducts = () => {
 
